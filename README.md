@@ -114,3 +114,37 @@ py data/download_amazon.py
 ```bash
 py scripts/init_database.py
 ```
+
+## 📈 Analysis Features
+### Core EDA Analyses
+* **Rating Distribution:** Analysis of star rating patterns
+
+* **Temporal Trends:** Review activity over time
+
+* **Product Popularity:** Most reviewed products and categories
+
+* **Reviewer Behavior:** Customer engagement patterns
+
+* **Category Analysis:** Performance across product categories
+
+* **Helpfulness Metrics:** What makes reviews helpful
+
+## Advanced Analyses
+* Sentiment Analysis: NLP-based sentiment scoring of review text
+
+* Correlation Analysis: Relationships between rating, helpfulness, and review length
+
+* Geographic Trends: Regional patterns (if location data available)
+
+##Visualization Outputs
+The analysis generates comprehensive visualizations including:
+
+* Rating distribution charts
+
+* Monthly review trends
+
+* Category performance pie charts
+
+* Reviewer activity levels
+
+* Sentiment vs rating correlations
