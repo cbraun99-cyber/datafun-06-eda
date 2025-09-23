@@ -176,11 +176,11 @@ The analysis generates comprehensive visualizations including:
   * How do ratings trend over different time periods?
   
 ## 🐍 Python Scripts Overview
-### ```run_amazon_analysis.py``` 
+#### ```run_amazon_analysis.py``` 
 
 Main execution script that runs the complete analysis pipeline.
 
-### ```scripts/amazon_eda.py```
+#### ```scripts/amazon_eda.py```
 
 Comprehensive EDA class with methods for:
 
@@ -194,7 +194,7 @@ Comprehensive EDA class with methods for:
 
 * Visualization generation
 
-**```scripts/sentiment_analysis.py```**
+#### ```scripts/sentiment_analysis.py```
 
 Advanced NLP analysis using TextBlob for:
 
@@ -204,7 +204,7 @@ Advanced NLP analysis using TextBlob for:
 
 * Text-based insights
 
-**```scripts/init_database.py```**
+#### ```scripts/init_database.py```
 
 Database management including:
 
