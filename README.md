@@ -129,14 +129,15 @@ py scripts/init_database.py
 
 * **Helpfulness Metrics:** What makes reviews helpful
 
-## Advanced Analyses
+### Advanced Analyses
 * Sentiment Analysis: NLP-based sentiment scoring of review text
 
 * Correlation Analysis: Relationships between rating, helpfulness, and review length
 
 * Geographic Trends: Regional patterns (if location data available)
 
-##Visualization Outputs
+###
+ Visualization Outputs
 The analysis generates comprehensive visualizations including:
 
 * Rating distribution charts
@@ -148,3 +149,65 @@ The analysis generates comprehensive visualizations including:
 * Reviewer activity levels
 
 * Sentiment vs rating correlations
+
+## 🎯 Key Business Questions Answered
+1. **Customer Behavior**
+
+  * What percentage of reviews are 5-star vs 1-star?
+
+  * How do review patterns vary by product category?
+
+  * What's the average rating across different product types?
+
+2. **Product Performance**
+
+  * Which products receive the most reviews?
+
+  * Is there correlation between review quantity and rating?
+
+  * How do product categories compare in customer satisfaction?
+
+3. **Temporal Analysis**
+
+  * How has review volume changed over time?
+
+  * Are there seasonal patterns in review activity?
+
+  * How do ratings trend over different time periods?
+  
+## 🐍 Python Scripts Overview
+```run_amazon_analysis.py```
+Main execution script that runs the complete analysis pipeline.
+
+```scripts/amazon_eda.py```
+Comprehensive EDA class with methods for:
+
+* Basic dataset statistics
+
+* Rating distribution analysis
+
+* Product and reviewer behavior
+
+* Category comparisons
+
+* Visualization generation
+
+```scripts/sentiment_analysis.py```
+Advanced NLP analysis using TextBlob for:
+
+* Sentiment polarity scoring
+
+* Sentiment vs rating correlations
+
+* Text-based insights
+
+```scripts/init_database.py```
+Database management including:
+
+* SQLite database creation
+
+* Data loading from CSV files
+
+* Index creation for performance
+
+* Data quality checks
