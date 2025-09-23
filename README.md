@@ -1,5 +1,5 @@
-# datafun-05-sql
-# Module 5 Repository - SQL
+# datafun-06-eda
+# Module 6 Repository - EDA
 
 Run ```py -m venv .venv``` \
 then ```.venv\Scripts\activate``` \
