@@ -331,3 +331,7 @@ For issues or questions:
 3. Examine generated error logs
 
 4. Consult Python package documentation
+
+## Special Note
+
+Using the .gitignore in this file will ignore the .gz files that are downloaded. They don't need to be added to the repository, as they are downloaded when you run the scripts.
